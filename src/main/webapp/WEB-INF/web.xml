@@ -10,4 +10,15 @@
 
     </servlet-mapping>
 
+    <servlet>
+        <servlet-name>ServletCalcAdd</servlet-name>
+        <servlet-class>com.sda.Calc</servlet-class>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletCalcAdd</servlet-name>
+        <url-pattern>/calc-add/*</url-pattern>
+
+    </servlet-mapping>
+
 </web-app>
